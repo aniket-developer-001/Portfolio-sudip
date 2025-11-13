@@ -1,0 +1,210 @@
+ *{
+      margin: 0px auto;
+      font-family: Ubuntu, sans-serif;
+    }#o, #o1{
+      right: 0;
+      position: fixed;
+      margin-right: 7%;
+      margin-top: 3px;
+    }nav{
+      width: 100%;
+      position: fixed;
+      z-index: 9999;
+      padding: 9px 0px;
+      color: limegreen;
+      background: white;
+      border-bottom: 1px solid #f0f0f0;
+    }nav span{
+      margin-left: 7%;
+      font-size: 18px;
+      font-weight: bold;
+      color: limegreen;
+    }.f-div{
+      width: 100%;
+      margin-top: 1px;
+    }.f-div .img1{
+      width: 100%;
+      z-index: 1;
+    }.m-div img{
+      width: 40%;
+      border-radius: 100%;
+      border: 1px solid #ccc;
+      margin: 0px 30%;
+      z-index: 9999;
+      margin-bottom: 10px;
+    } .m-div{
+      margin-top: -90%;
+    }.m-div h1{
+      text-align: center;
+    }.m-div p{
+      color: gray;
+      margin: 5px 0px;
+      text-align: center;
+    }section{
+      display: flex;
+      margin: 20px 0px 10px 0px;
+      width: 100%;
+    }section div i{
+      margin-top: 9px;
+    }section div{
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      border: 1.5px solid #f0f0f0;
+      font-size:30px;
+      color: royalblue;
+      text-align: center;
+    }section div:hover{
+      border: 1.5px solid royalblue;
+      animation: ab 0.5s ease-in forwards;
+    }p{
+     font-size: 14px;
+     line-height: 1.5;
+     margin: 10px 5%;
+    }h3{
+      margin-left: 5%;
+    }iframe{
+      width: 90%;
+      margin: 0px 5%;
+      border: 1px solid #f0f0f0;
+      border-radius: 10px;
+      height: 350px;
+    }.c i{
+      color: limegreen;
+    }.btn3{
+      width: 90%;
+      border-radius: 25px;
+      color: royalblue;
+      border: 1.5px solid #f0f0f0;
+      padding: 11px 0px;
+      background: transparent;
+      font-size: 17px;
+      font-weight: bold;
+      margin: 10px 5%;
+    }.btn3:hover{
+      animation: ab 0.5s ease-in forwards;
+      color: white;
+      background: royalblue;
+    }input, textarea{
+      width: 80%;
+      margin: 0px 5%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 9px 5%;
+      background: transparent;
+    }label{
+      margin-left: 5%;
+      color: black;
+      margin-bottom: 0px;
+    }textarea{
+      height: 100px;
+    }form button{
+      width: 90%;
+      padding: 14px;
+      margin: 10px 5%;
+      background: darkorange;
+      margin-bottom: 10px;
+      border: 1px solid #f0f0f0;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
+    }form{
+      margin-top: 5px;
+    }#o1{
+      opacity: 0;
+      display: none;
+    }.s-div{
+      width: 90%;
+      margin: 0px 5%;
+      border: 0px solid #f0f0f0;
+      border-radius: 10.5px;
+    }.s-div img{
+      width: 100%;
+      border-radius: 10px;
+      margin: 0;
+    }.s-div h2{
+      font-size: 22px;
+      margin: 6px 0px 0px 2%;
+    }.s-div p{
+      margin: 15px 0px 7px 2%;
+    }.s-div{
+      margin-top: 6px;
+    }.s-div button{
+      width: 90%;
+      margin: 10px 5% 20px 5%;
+      border-radius: 10.5px;
+      padding: 10px 0px;
+      background: royalblue;
+      border: 0.5px solid #f0f0f0;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      color: white;
+    }@keyframes ab{
+      from{transform: scale(1.0);}
+      to{transform: scale(1.1);}
+    }@keyframes a{
+      from{opacity: 0;}
+      to{opacity: 1.0;}
+    }a{
+      text-decoration: none;
+      color: royalblue;
+    }body{
+      animation: a 0.5s ease-in forwards;
+    } .s-div button:hover{
+      animation: ab 0.5s ease-in forwards;
+    }form button:hover{
+      animation: ab 0.5s ease-in forwards;
+    }@keyframes ac{
+      from{opacity: 0;}
+      to{opacity: 1.0; border: 1.5px solid  limegreen;}
+    } .s-div:hover{
+      animation: ac 0.5s ease-in forwards;
+    }input:focus, textarea:focus{
+      outline: 1px solid lime;
+      border: none;
+    }header{
+    padding: 10px 0px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background: white;
+    text-align: center;
+  }header a:hover{
+    color: limegreen;
+  }.pa{
+    width: 100%;
+    margin-top: 5px;
+  }.footer{
+    text-align: center;
+    padding: 10px 0px;
+  }#o, #o1{
+    color: limegreen;
+  }
+    @media screen and (min-width: 600px){
+      .m-div{
+      margin-top: -85%;
+    }.s-div img{
+      width: 100%;
+      height: 250px;
+    }.n-div{
+      display: flex;
+    }input, textarea{
+      width: 60%;
+      margin: 0px 17.5%;
+      padding: 9px 2.5%;
+    }label{
+      margin-left: 17.5%;
+    }form button{
+      width: 60%;
+      margin-left: 20%;
+    }.f-div, .pa, section{
+      width: 60%;
+      margin-left: 20%;
+    }.m-div img{
+      width: 25%;
+      margin-left: 37.5%;
+    } .m-div{
+      margin-top: -55%;
+    }
+    }
